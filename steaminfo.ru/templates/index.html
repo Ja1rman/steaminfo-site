@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>STEAM ID Finder | SteamID 64 | Стим id Конвертер</title>
+    <meta name="viewport" content="width=device-width, initial-scale=0.75, user-scalable=0">
+    <meta name="Keywords"
+        content="steam, steamid, steam id, стим, стим id, как узнать steam id, steam id finder, steam id 64, стим айди, steam 64, steam finder
+        как найти steam id, где посмотреть steam id, steam account id, id аккаунта steam, steam 0, где steam id, узнать steam id 64, id профиля steam">
+    <meta name="Description"
+        content="SteamInfo.ru - Онлайн инструмент для поиска и конвертирования steam id в популярные форматы. community ID (custom url) / steamID / steamID32 (AccountID) / steamID64 / URL / steamID3 (USteamID).">
+    <link rel="icon" href="/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/icon.ico" type="image/x-icon">
+    <script data-ad-client="ca-pub-3382935958596937" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            margin-bottom: 100px;
+            min-width: 420px;
+        }
+
+        .main_title {
+            font-size: 3em;
+            color: #585858;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 13%;
+            margin-left: auto;
+        }
+
+        .search {
+            color: #404040;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 3em;
+        }
+
+        @media all and (orientation: portrait) 
+        {
+            .form {
+                text-align: center;
+                font-size: 1em;
+                padding: 0.5em;
+                width: 400px;
+            }
+        }
+        
+        @media all and (orientation: landscape)
+        {
+            .form {
+                text-align: center;
+                font-size: 1em;
+                padding: 0.5em;
+                width: 535px;
+                left: calc(50% - 535/2);
+            }
+        }
+
+        .button {
+            font-size: 1.3em;
+            background-color: #ffffff;
+            padding: 10px;
+            cursor: pointer;
+            width: 13%;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #404040;
+            border-radius: 2em;
+            margin-left: auto;
+            margin-top: 3em;
+            margin-bottom: 3em;
+            outline: none;
+            min-width: 100px;
+        }
+
+        .button:hover {
+            border-width: 1.5px;
+        }
+
+        .button:active {
+            background-color: #f8f8f8;
+        }
+
+        footer {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+        }
+
+        h1 {
+            font-size: 0.9em;
+            font-weight: 100;
+            color: #585858;
+        }
+
+        button {
+            font-size: 0.9em;
+            font-weight: 100;
+            color: #585858;
+            border: unset;
+            background: unset;
+            outline: unset;
+            cursor: pointer;
+        }
+
+        .txt {
+            font-size: 1.1em;
+            font-weight: 100;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #404040;
+            text-align: left;
+            margin-top: 0.5em;
+            margin-bottom: 0em;
+        }
+
+        .input {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+            border: unset;
+            background: unset;
+            outline: unset;
+            padding: unset;
+            margin-top: 0.5em;
+            margin-left: 0.8em;
+        }
+
+        .text_info {
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: left;
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177804314-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-177804314-2');
+    </script>
+</head>
+
+<body>
+    <div class="main_title">STEAM ID</div>
+    <form class="search" method="post" action="/steamid/">
+        {% if user_text %}
+        <input type="text" name="text" id="text" value="{{ user_text }}"
+            onfocus="if (this.value=='Введите SteamID 64[32] / SteamCommunityID / URL / SteamID3') this.value='';"
+            onblur="if (this.value==''){this.value='Введите SteamID 64[32] / SteamCommunityID / URL / SteamID3'}"
+            class="form" maxlength="80"><br>
+        {% else %}
+        <input type="text" name="text" id="text"
+            value="Введите SteamID 64[32] / SteamCommunityID / URL / SteamID3"
+            onfocus="if (this.value=='Введите SteamID 64[32] / SteamCommunityID / URL / SteamID3') this.value='';"
+            onblur="if (this.value==''){this.value='Введите SteamID 64[32] / SteamCommunityID / URL / SteamID3'}"
+            class="form" maxlength="80"><br>
+        {% endif %}
+
+        <input type="submit" value="Найти" class="button">
+    </form>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Hor -->
+    <ins class="adsbygoogle" style="display:inline-block;width:800px;height:60px"
+        data-ad-client="ca-pub-3382935958596937" data-ad-slot="5274881017"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    {% if profile_url %}
+    <div style="margin: 0 auto; height: auto; width: 400px;">
+        <div class="text_info">
+            <div class="txt">NickName:</div>
+            <input type="text" size="30" value="{{ nick_name }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">URL:</div>
+            <input type="text" size="35" value="{{ profile_url }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">Permalink:</div>
+            <input type="text" size="35" value="{{ permalink }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">Steam64ID:</div>
+            <input type="text" size="30" value="{{ steam64 }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">Steam32ID:</div>
+            <input type="text" size="30" value="{{ steam32 }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">SteamID3:</div>
+            <input type="text" size="30" value="{{ steam3 }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">SteamID:</div>
+            <input type="text" size="30" value="{{ steamid }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <nobr class="txt">VAC баны:</nobr>
+            <input type="text" size="30" value="{{ vacBanned }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <nobr class="txt">Трейд баны:</nobr>
+            <input type="text" size="30" value="{{ tradeBanState }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <div class="txt">Лимиты:</div>
+            <input type="text" size="30" value="{{ isLimitedAccount }}" class="input" maxlength="80"><br>
+        </div>
+        <div class="text_info">
+            <nobr class="txt">Дата регистрации:</nobr>
+            <input type="text" size="30" value="{{ memberSince }}" class="input" maxlength="80">
+        </div>
+    </div>
+    <br>
+    <br>
+    {% endif %}
+    {% if error %}
+    <div style="margin: 0 auto; height: auto; width: 400px;">
+        <div class="txt" style='text-align: center; font-size: 1.2em;'>Игрок не найден :(</div><br><br>
+        <div class="txt" style='margin-bottom: 0.7em;'>Форматы ввода:</div>
+        <div class="txt">• STEAM_0:1:XXXXXXXX</div>
+        <div class="txt">• XXXXXXXXX (SteamID32/AccountID)</div>
+        <div class="txt">• U:1:XXXXXXXXX (SteamID3/USteamID)</div>
+        <div class="txt">• 7656XXXXXXXXXXXXX (SteamID64)</div>
+        <div class="txt" style='white-space: nowrap;'>• https://steamcommunity.com/profiles/765XXXXXXXXX</div>
+        <div class="txt">• {custom url}</div>
+        <div class="txt">• https://steamcommunity.com/id/{custom url}</div>
+        <br>
+    </div>
+    {% endif %}
+    <div style="margin: 0 auto; height: auto; width: 400px;">
+        <div class="txt" style='margin-bottom: 0.7em;'>Информация</div>
+        <div class="txt">SteamInfo.ru - Онлайн инструмент для поиска и конвертирования steam id в популярные форматы.
+            community ID (custom url) / steamID / steamID32 (AccountID) / steamID64 / URL / steamID3 (USteamID).</div>
+        <br>
+        <div class="txt" style='margin-bottom: 0.7em;'>Что такое steam id?</div>
+        <div class="txt">SteamID - это уникальный идентификатор, используемый для определения Стим аккаунта. Он также
+            используется для ссылки на страницу профиля пользователя в сообществе Steam.</div>
+    </div>
+    <script data-ad-client="ca-pub-3382935958596937" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <footer>
+        <h1>Dev: </h1>
+        <button onclick="window.open('https://youtube.com/jairman','_blank')">Jairman</button>
+    </footer>
+</body>
+
+</html>
